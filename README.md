@@ -1,6 +1,6 @@
-# library
+# VitePress
 
-A Library Project
+A VitePress Docs
 
 ## License
 
