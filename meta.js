@@ -16,5 +16,9 @@ module.exports = {
             message: 'Author',
         },
     },
-    completeMessage: 'To get started:\n\n  yarn add --dev vitepress vue'
+    completeMessage: 'To get started:\n\n  yarn add --dev vitepress vue \n\n "scripts": {\n' +
+        '    "docs:dev": "vitepress dev docs",\n' +
+        '    "docs:build": "vitepress build docs",\n' +
+        '    "docs:serve": "vitepress serve docs"\n' +
+        '  }\n\n yarn docs:dev\n'
 }
