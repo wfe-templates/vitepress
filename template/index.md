@@ -2,7 +2,7 @@
 layout: home
 
 hero:
-    name: {{ name }
+    name: {{ name }}
     text: Vite & Vue powered static site generator.
     tagline: Lorem ipsum...
     actions:
